@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: transparent;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+    font-size: 2rem;
+    padding-left: 8rem;
+    cursor: pointer;
+    font-family: 'Iceland', cursive;
+}
+
+#navabarq {
+    /* padding-right: rem; */
+    padding-bottom: 0 0 1rem;
+    position: sticky;
+    top: 0;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+/* main portion  */
+
+.headingh5 {
+    margin-top: 5rem;
+    font-size: 20px;
+    color: rgba(107,107,107,.89);
+    font-family: 'Iceland', cursive;
+}
+
+.brandimg {
+    padding-left: 6rem;
+    
+}
+@media (min-width:667px) and (max-width: 990px) {
+    .brandimg{
+        padding-top: 6rem;
+        /* width: 52%; */
+    }
+  }
+
+.site-banner {
+    margin-top: 10rem;
+}
+
+.para{
+    font-family: 'Iceland', cursive;
+    font-size: 23px;
+    color: rgba(107,107,107,.89);
+    padding-top: 2rem;
+}
+.para2{
+    font-family: 'Iceland', cursive;
+    font-size: 18px;
+    color: rgba(107,107,107,.89);
+    padding-top: 2rem;
+}
+/* 2nd part  */
+
+#second-part {
+    padding-top: 10rem;
+    /* background-color: aqua; */
+}
+
+.second-part-h3 {
+    padding-bottom: 3rem;
+}
+
+.brandimg2 {
+    padding-left: 8rem;
+    padding-top: 1rem;
+}
+
+.second-part-conti {
+    height: 390px;
+    width: auto;
+    /* background-color: blue; */
+    box-shadow: 3px 3px 12px rgb(207, 217, 220);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+@media only screen and (max-width:991px){
+    .second-part-conti{
+        height: 590px;
+    }
+    .brandimg2{
+        padding-top: 3rem;
+    }
+}
+
+#cta {
+    /* background-color: aqua; */
+    padding: 7% 15%;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.download-button{
+    margin-left: 1rem;
+}
+
+#cta2{
+    text-align: center;
+    padding-bottom: 7rem;
+    background-image: linear-gradient(to bottom, white, orange);
+}
+
+#last{
+    text-align: center;
+    padding-top: 7rem;
+    background-image: linear-gradient(to top,white,orange);
+}
+
+.last-word{
+    padding-top: 3rem;
+}
+.div-block-17{
+    border-radius: 25% 25% 25% 25%;
+    border-color: aquamarine;
+    /* background-color: bisque; */
+}
+
+.company_logo{
+    mix-blend-mode: multiply;
+    /* margin-left: 200px; */
+    /* margin-top: auto;
+    height: 100px; */
+}
+
+h2{
+    color: orange;
+    font-size: 45.555px;
+    font-family: 'Nova Square', cursive;
+}
+
+a:hover{
+    color: azure;
+}
+
